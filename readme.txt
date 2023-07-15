@@ -10,7 +10,6 @@ BCCD/ # имя папки
 Пример: 
 create_data_lists(path='BCCD', output_folder='./')
 3) Запустить create_data_lists.py для создания json файлов.
-4)
 
 Общий порядок действий
 для запуска на BCCD датасесете:
