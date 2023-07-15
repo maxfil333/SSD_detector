@@ -1,7 +1,13 @@
-utils.py
+Для запуска на кастомном датасете:
 
-	label_map
+1) в файле utils.py добавить классы в label_map
+2) в файле create_data_lists.py указать папку с датасетом структуры:
 
-create_data_lists.py
+BCCD/ # имя папки
+-----Annotations/
+-----ImageSets/
+----------Main/
+-----JPEGImages/
 
-	create_data_lists (path = )
+Пример: 
+create_data_lists(path='BCCD', output_folder='./')
